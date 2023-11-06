@@ -30,6 +30,18 @@ body, html, input {
   font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 768px) {
+  .page {
+    margin: 0 20px; /* Add some margin on small screens */
+  }
+  
+  main {
+    margin: 8rem 0;
+    max-width: 40rem;
+  }
+  
+}
+
 .page {
   max-width: 1440px;
   margin: 0 auto;
@@ -100,23 +112,7 @@ main form button {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* opacity: 1; */
-	/* animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 1.0s; */
 }
-
-/* @keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-
-	}
-	100% {
-		opacity: 1;
-    
-	}
-} */
 
 main form button:hover {
   background: var(--gradient-color-inv);
@@ -141,6 +137,6 @@ footer div p:first-of-type {
 }
 
 footer div p {
-  font-size: 1.4remS;
+  font-size: 1.4rem;
 }
 
